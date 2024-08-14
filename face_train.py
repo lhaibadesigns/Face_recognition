@@ -15,7 +15,7 @@ if __name__ == "__main__":
         imagePaths = [os.path.join(path, f) for f in os.listdir(path)]
         faceSamples = []
         ids = []
-    
+
         for imagePath in imagePaths:
             PIL_img = Image.open(imagePath).convert('L')
             img_numpy = np.array(PIL_img, 'uint8')
