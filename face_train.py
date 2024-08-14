@@ -5,7 +5,7 @@ import os
 
 
 if __name__ == "__main__":
-    
+
     path = './images/'
     recognizer = cv2.face.LBPHFaceRecognizer_create()
     print("\n[INFO] Training...")
