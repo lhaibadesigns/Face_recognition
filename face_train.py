@@ -35,5 +35,5 @@ if __name__ == "__main__":
     recognizer.train(faces, np.array(ids))
     
     recognizer.write('trainer.yml')
-    
+
     print("\n[INFO] {0} faces trained. Exiting Program".format(len(np.unique(ids))))
